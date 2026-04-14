@@ -30,22 +30,6 @@ A web interface built with **Streamlit** allows real-time image classification.
 
 ---
 
-## Repository Structure
-
-```
-├── ai_real_svm.py          # Feature extraction and SVM model training
-├── ai_vs_real_cnn.py       # CNN model training (MobileNetV2)
-├── main_cnn.py             # Streamlit app for CNN-based detection
-├── main_svm.py             # Streamlit app for SVM-based classification
-├── best_model.keras        # Trained CNN model weights
-├── model_svm.pkl           # Trained SVM model (pickled)
-├── requirements.txt        # Python dependencies
-├── MiniProject_presentation.pdf
-└── Synopsis.pdf
-```
-
----
-
 ## Tech Stack
 
 | Category | Tools / Libraries |
@@ -94,31 +78,6 @@ A web interface built with **Streamlit** allows real-time image classification.
 Both models are evaluated on **accuracy, precision, recall, F1-score**, and a **confusion matrix**.
 
 The SVM classifier achieved stronger results overall, demonstrating that well-designed handcrafted features can rival deep learning on constrained datasets.
-
----
-
-## Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/anula-codes/reality-check.git
-cd reality-check
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the CNN Streamlit App
-```bash
-streamlit run main_cnn.py
-```
-
-### 4. Run the SVM Streamlit App
-```bash
-streamlit run main_svm.py
-```
 
 ---
 

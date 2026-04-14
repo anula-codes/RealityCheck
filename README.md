@@ -8,8 +8,8 @@ A mini-project submitted to **KIIT Deemed to be University** in partial fulfilme
 
 | Name | Roll Number |
 |---|---|
-| Swayamshree Mohanty | 2305661 |
 | Anula Mishra | 2305843 |
+| Swayamshree Mohanty | 2305661 |
 | Arundhati Das | 2305847 |
 | Asmi Dutta | 23052558 |
 | Aviskha Dey | 23052876 |
